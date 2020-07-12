@@ -7,10 +7,10 @@
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Classify Bear Images 🐻</div>
+    <div class='title'>Classifiez les architectures anciennes !</div>
     <p>
-      Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-      all three!
+      Ici vous pouvez inserer des images de 'autel','abside','clocher','colonne','dôme intérieur','extérieur du dôme','contrefort volant','gargouille','vitrail' et 'voûte'.
+      Cependant c'est en anglais (because we are all Billingue as we are all french ;D ).
     </p>
     <div class='content'>
       <div class='no-display'>
@@ -21,15 +21,15 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Selectionnez une image</button>
       <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
+        <label id='upload-label'>Aucune image choisie</label>
       </div>
       <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+        <img id='image-picked' class='no-display' alt='Image choisie' height='200'>
       </div>
       <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyser</button>
       </div>
       <div class='result-label'>
         <label id='result-label'></label>
